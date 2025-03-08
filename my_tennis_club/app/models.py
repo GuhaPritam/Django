@@ -6,6 +6,7 @@ class AppVarity(models.Model):
         ('FD', 'FOOD'),
         ('PL', 'PLAY'),
         ('SG', 'SING'),
+        ('MV', 'MOVIE')
     ]
     name = models.CharField(max_length=100)
     image = models.ImageField(upload_to='images/')
